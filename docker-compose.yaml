@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ms-from:
+    build: ./ms-from
+    ports:
+      - "8070:8070"
+  ms-to:
+    build: ./ms-to
+    ports:
+      - "8090:8090"
+
+networks:
+  default:
+    name: tarea_1
