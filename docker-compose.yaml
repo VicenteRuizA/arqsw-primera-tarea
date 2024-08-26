@@ -5,6 +5,7 @@ services:
     build: ./ms-from
     ports:
       - "8070:8070"
+
   ms-to:
     build: ./ms-to
     ports:
